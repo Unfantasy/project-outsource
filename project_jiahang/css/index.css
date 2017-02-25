@@ -1,0 +1,62 @@
+.articles{
+    padding:0;
+    font-size:18px;
+}
+.articles li{
+    padding:0;
+    line-height: 2.5;
+    cursor:pointer;
+}
+.enterpriseArticles{
+    display: none;
+}
+.enterpriseArticlesExit{
+    color:#0044cc;
+    cursor: pointer;
+}
+.articleBg .nivo-lightbox-image,.articleBgInfo .nivo-lightbox-image{
+    background-color:#fff;
+    padding:15px;
+}
+.grayLine{
+    width:100%;
+    height:1px;
+    background-color:gray;
+}
+.articleBg,.articleBgInfo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99998;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+     visibility: hidden;
+    /* opacity: 0; */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color:rgba(0,0,0,.6);
+}
+.articleBgOpen{
+    visibility: visible;
+}
+.articleBg h2{
+    text-align: center;
+}
+.articleBg .nivo-lightbox-image {
+    text-align: left;
+}
+.articleBg .nivo-lightbox-content{
+overflow-y: auto
+}
+.nivo-lightbox-close {
+    display: block;
+    background: url('lib/nivo-themes/default/close.png') no-repeat 5px 5px;
+    width: 22px;
+    height: 22px;
+    text-indent: -9999px;
+    padding: 5px;
+    opacity: 0.5;
+}
+

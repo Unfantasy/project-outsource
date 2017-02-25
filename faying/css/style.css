@@ -1,0 +1,143 @@
+body,html{
+    margin:0;
+    padding:0;
+    font-size:14px;
+}
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.content{
+    width:980px;
+    margin:0 auto;
+}
+nav{
+    background: #745200;
+    color:#fff;
+    position:relative;
+    clear:both;
+    height:48px;
+
+}
+nav ul>li{
+    float:left;
+    padding:0 27px;
+    font-size:16px;
+    line-height:3;
+    background: #745200;
+}
+nav ul>li a{
+    color:#fff;
+    text-decoration: none;
+}
+nav li:hover,nav a:active{
+    text-decoration: none;
+}
+nav ul>li:hover{
+    background:#4a3200;
+}
+/*banner style*/
+.banner{
+    height:560px;
+    padding-top:90px;
+    background:url('../images/banner.png') center center no-repeat;
+}
+.banner h2{
+    color:#333333;
+    font-size:36px;
+    line-height:50px;
+}
+.banner p{
+    color:#333333;
+    font-size:18px;
+    line-height:30px;
+}
+/*section style*/
+section:nth-of-type(1){
+    background:#f5f5f5;
+}
+.area h2{
+    font-weight:normal;
+    font-size:30px;
+    line-height: 40px;
+    color:#594700;
+    text-align: center;
+    margin:0;
+}
+.area h3{
+    font-weight:normal;
+    font-size:20px;
+    line-height: 40px;
+    color:#b29f55;
+    text-align: center;
+    margin:0;
+}
+.areaList{
+    margin-top:30px;
+}
+.areaList>div{
+    width:11%;
+    display: inline-block;
+}
+.areas{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background:#bcbcbc url('../images/area.png') center center no-repeat;
+    background-size:100% 100%;
+    margin:0 auto;
+}
+.areaList p{
+    font-size: 14px;
+    line-height: 30px;
+    color:#84703a;
+    margin:20px 0;
+    text-align: center;
+}
+section:nth-of-type(2){
+    background-color:#fff;
+}
+.area,.otherIntro{
+    padding:40px 0;
+    font-size: 0;
+}
+.otherIntro h4{
+    font-size: 24px;
+    line-height:1;
+    color:#594700;
+}
+.otherIntro h4 span{
+    font-size:18px;
+    color:#b29f55;
+}
+.introImg{
+    width:100%;
+    border-radius:6px;
+}
+.otherIntro p{
+    font-size:14px;
+    line-height: 2;
+    color:#666;
+}
+.otherIntro>div{
+    width:50%;
+    display: inline-block;
+    padding-right:15px;
+}
+/*footer style*/
+footer{
+    background:#7a5b0d;
+    border-top:5px solid #583f00;
+    padding:20px 0;
+    font-size: 14px;
+    line-height: 34px;
+    color:#c3a150;
+}
+footer a{
+    color:#c3a150;
+    text-decoration: none;
+}
